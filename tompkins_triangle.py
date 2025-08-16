@@ -38,7 +38,7 @@ def build_tompkins_triangle(k: int, n_max: int):
 
 # ---------- Rendering ----------
 
-def render_triangle_png(T, k: int, c: int, highlight_j: int | None, out_path: Path):
+def render_triangle_png(T, k: int, c: int, highlight_j, out_path: Path):
     """
     Render T as a PNG with readable typography and optional highlighted diagonal j.
     highlight_j = 0 highlights the right edge (constant c), 1 highlights next inwards, etc.
